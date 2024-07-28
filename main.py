@@ -1,10 +1,10 @@
 import simplegrid
 import time
 
-grid = simplegrid.Grid(30, 30, "■ ")
+grid = simplegrid.Grid(75, 75, "■ ")
 direction = 90
-grid.selected_x = 16
-grid.selected_y = 16
+grid.selected_x = 40
+grid.selected_y = 40
 
 while True:
     if grid.read_here() == "■ ":
